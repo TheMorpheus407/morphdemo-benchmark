@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "benchmark": "MorphDemo",
+  "measured_on": "2026-09-23",
+  "note": "Measured values of the reference host. Runs and evaluation happen on this machine.",
+  "host": {
+    "os": "NixOS 26.05.9729.c3eea5b2156d (Yarara), x86-64",
+    "kernel": "Linux 6.18.43",
+    "cpu": "AMD Ryzen 9 9950X, 16 cores / 32 threads",
+    "ram_gib": 91,
+    "gpu": "NVIDIA GeForce RTX 5090, 32 GiB",
+    "nvidia_driver": "595.71.05"
+  },
+  "graphics_runtime": {
+    "opengl": "4.6.0 NVIDIA 595.71.05 via libglvnd (libGL.so.1, libGLX.so.0, libEGL.so.1, libOpenGL.so.0)",
+    "vulkan": "loader libvulkan.so.1; physical devices: NVIDIA GeForce RTX 5090, AMD Radeon iGPU (RADV), llvmpipe",
+    "cuda": "driver API libcuda.so.1 (cuInit OK, 1 device). No CUDA toolkit/nvcc installed.",
+    "windowing": "KDE Plasma on Wayland (WAYLAND_DISPLAY=wayland-0); XWayland at DISPLAY=:0. Libraries: libX11, libxcb, libXrandr, libwayland-client, SDL2, SDL3, GLFW 3"
+  },
+  "display": {
+    "target": "1920x1080",
+    "actual": "Multiple monitors. 4K panels at 200% scaling, so the logical desktop size per 4K monitor is 1920x1080. The evaluation recording is taken on a 1920x1080 logical output."
+  },
+  "audio_runtime": {
+    "server": "PipeWire with PulseAudio and ALSA compatibility",
+    "libraries": "libasound.so.2, libpulse.so.0, libpulse-simple.so.0, libpipewire-0.3.so.0, SDL2/SDL3 audio",
+    "verified": "SDL2 opened a 48000 Hz stereo device (driver: pipewire)"
+  },
+  "native_executables": {
+    "loader": "/lib64/ld-linux-x86-64.so.2 exists (nix-ld). A plain ELF with this interpreter and no RPATH resolves the libraries listed above by soname.",
+    "verified": "A preflight ELF built this way created a GL 4.6 context on the RTX 5090, a Vulkan instance, a CUDA context and a PipeWire audio device."
+  },
+  "build_tools": {
+    "cc": "gcc 15.2.0 (wrapped, /run/current-system/sw/bin/gcc and cc)",
+    "binutils": "GNU ld / objcopy 2.46",
+    "rust": "rustc 1.97.1, cargo 1.97.1",
+    "python": "3.13.15",
+    "other": "GNU make 4.4.1, xz 5.8.3, patchelf 0.15.2, strace 7.2, ffmpeg 8.0",
+    "nix": "Nix 2.34.8 with nixpkgs 26.05. Extra BUILD-time tools (e.g. nasm, clang, lld, glslang, shader minifiers, packers) may be obtained through nix (nix-shell -p ... or a shell.nix in your source tree). Declare them in your build instructions so the rebuild works from a fresh checkout. This does not relax the runtime rule: the three executables may use only the runtime libraries listed above."
+  },
+  "limits": {
+    "development_time": "none",
+    "tokens_or_cost": "none",
+    "iterations": "none"
+  }
+}
