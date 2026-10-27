@@ -25,6 +25,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`GPT-6.1-Sol/`](GPT-6.1-Sol/) | GPT-6.1 Sol | 2026-09-29 |
 | [`Mistral-Large-4/`](Mistral-Large-4/) | Mistral Large 4 | 2026-10-06 |
 | [`Gemini-4-Argon/`](Gemini-4-Argon/) | Gemini 4 Argon | 2026-10-14 |
+| [`Kimi-K3.1-Pro/`](Kimi-K3.1-Pro/) | Kimi K3.1 Pro | 2026-10-23 |
 
 Build outputs, caches, IDE state and harness configuration are left out (see
 [`.gitignore`](.gitignore)); a `.gitignore` written by a model applies to its
