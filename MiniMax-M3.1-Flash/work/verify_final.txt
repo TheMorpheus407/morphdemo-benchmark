@@ -1,0 +1,16 @@
+=== morphdemo-4k ===
+  size      morphdemo-4k = 4096 bytes        OK
+  run       morphdemo-4k lasted 60.4s (50..70s)     OK
+  audio     morphdemo-4k: the device was opened        OK
+  escape    morphdemo-4k stopped on escape             OK
+=== morphdemo-16k ===
+  size      morphdemo-16k = 16384 bytes        OK
+  run       morphdemo-16k lasted 60.4s (50..70s)     OK
+  audio     morphdemo-16k: the device was opened        OK
+  escape    morphdemo-16k stopped on escape             OK
+=== morphdemo-64k ===
+  size      morphdemo-64k = 65536 bytes        OK
+  run       morphdemo-64k lasted 60.4s (50..70s)     OK
+  audio     morphdemo-64k: the device was opened        OK
+  escape    morphdemo-64k stopped on escape             OK
+all checks passed

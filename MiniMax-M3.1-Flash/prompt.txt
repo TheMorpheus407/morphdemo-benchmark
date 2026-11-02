@@ -1,0 +1,1 @@
+Follow the instructions in SPEC.md completely. ENVIRONMENT.json describes this machine. Keep all your work inside this folder.
