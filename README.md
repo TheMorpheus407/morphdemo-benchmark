@@ -28,6 +28,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`Kimi-K3.1-Pro/`](Kimi-K3.1-Pro/) | Kimi K3.1 Pro | 2026-10-23 |
 | [`MiniMax-M3.1-Flash/`](MiniMax-M3.1-Flash/) | MiniMax M3.1 Flash | 2026-10-22 |
 | [`Nemotron-3.5-Super-VL/`](Nemotron-3.5-Super-VL/) | Nemotron 3.5 Super VL | 2026-11-08 |
+| [`Gemini-4-Carbon/`](Gemini-4-Carbon/) | Gemini 4 Carbon | 2026-11-12 |
 
 Build outputs, caches, IDE state and harness configuration are left out (see
 [`.gitignore`](.gitignore)); a `.gitignore` written by a model applies to its
