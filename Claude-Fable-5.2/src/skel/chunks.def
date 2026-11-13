@@ -1,0 +1,4 @@
+CH(c_hdr, "hdr.glsl")
+CH(c_vs, "vs.glsl")
+CH(c_img, "img.glsl")
+CH(c_snd, "snd.glsl")

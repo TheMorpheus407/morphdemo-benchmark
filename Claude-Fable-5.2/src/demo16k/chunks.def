@@ -1,0 +1,7 @@
+CH(c_hdr, "hdr.glsl")
+CH(c_score, "score.glsl")
+CH(c_vs, "vs.glsl")
+CH(c_sim, "sim.glsl")
+CH(c_main, "main.glsl")
+CH(c_post, "post.glsl")
+CH(c_snd, "snd.glsl")

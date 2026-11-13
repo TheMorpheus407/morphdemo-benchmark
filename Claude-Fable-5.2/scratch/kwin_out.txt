@@ -1,0 +1,12 @@
+INSIDE: DISPLAY=:0 WAYLAND_DISPLAY=wayland-test XDG_SESSION_TYPE=x11
+screen 1920x1080
+glx ext: 1
+server vendor: SGI
+client vendor: NVIDIA Corporation
+makecurrent 1 direct 1
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 5090/PCIe/SSE2
+GL_VERSION: 4.6.0 NVIDIA 595.71.05
+GLSL: 4.60 NVIDIA
+clear+swap fps: 64.9
+kwin exit 0

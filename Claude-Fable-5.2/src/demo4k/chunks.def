@@ -1,0 +1,3 @@
+CH(s_common, "common.glsl")
+CH(s_img, "img.glsl")
+CH(s_snd, "snd.glsl")

@@ -1,0 +1,12 @@
+export X11DEV=/nix/store/5ll0ci1p0dxinhdqfzm67jzns6amnfg5-libx11-1.8.14-dev
+export XPROTO=/nix/store/0nawzv5jpfz0qx9xvmmaza4fipx71qns-xorgproto-2025.1
+export GLDEV=/nix/store/2vvzfir1v357j5qfqfqv5zclklln5lp2-libglvnd-1.7.0-dev
+export SDLDEV=/nix/store/0xqsyy0c018115hwn4kv81ssvkgza5kd-sdl2-compat-2.32.68-dev
+export NIXLD=/run/current-system/sw/share/nix-ld/lib
+export DEVINC="-I/nix/store/5ll0ci1p0dxinhdqfzm67jzns6amnfg5-libx11-1.8.14-dev/include -I/nix/store/0nawzv5jpfz0qx9xvmmaza4fipx71qns-xorgproto-2025.1/include -I/nix/store/2vvzfir1v357j5qfqfqv5zclklln5lp2-libglvnd-1.7.0-dev/include -I/nix/store/0xqsyy0c018115hwn4kv81ssvkgza5kd-sdl2-compat-2.32.68-dev/include"
+export XDOTOOL=/nix/store/lck8j0ci1qqbhqhqcmwh9w4nj4xans2n-xdotool-4.20260303.1/bin/xdotool
+export XPROP=/nix/store/6w7f0nl10x4ncmbkv39031dvksg5awig-xprop-1.2.8/bin/xprop
+export XWININFO=/nix/store/k32451f7cp90xi1z1n2sqd6x0aljy3cc-xwininfo-1.1.6/bin/xwininfo
+export XDPYINFO=/nix/store/f9p3kk2mxazhb32pmzwm7nlzc3lbsmh8-xdpyinfo-1.4.0/bin/xdpyinfo
+export PABIN=/nix/store/igqqqab47468vk06ingdxbanq2w23hjd-pulseaudio-17.0/bin
+export PADEV=/nix/store/cmqcj31inljl1f514dvh0dpcz1q9p3x8-libpulseaudio-17.0-dev
