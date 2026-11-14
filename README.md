@@ -30,6 +30,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`Nemotron-3.5-Super-VL/`](Nemotron-3.5-Super-VL/) | Nemotron 3.5 Super VL | 2026-11-08 |
 | [`Gemini-4-Carbon/`](Gemini-4-Carbon/) | Gemini 4 Carbon | 2026-11-12 |
 | [`Claude-Fable-5.2/`](Claude-Fable-5.2/) | Claude Fable 5.2 | 2026-11-10 |
+| [`Crouton-Alpha/`](Crouton-Alpha/) | Crouton Alpha (OpenRouter stealth preview, early version of Meta Muse Ember) | 2026-11-07 |
 
 Build outputs, caches, IDE state and harness configuration are left out (see
 [`.gitignore`](.gitignore)); a `.gitignore` written by a model applies to its
